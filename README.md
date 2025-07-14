@@ -1,61 +1,222 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<p align="center"><img src="public/hero.jpeg" width="600" alt="Sistema de Calendário"></p>
+
+# 📅 Sistema de Calendário Laravel
 
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+<img src="https://img.shields.io/badge/Laravel-11.x-red.svg" alt="Laravel Version">
+<img src="https://img.shields.io/badge/PHP-8.2+-blue.svg" alt="PHP Version">
+<img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
+<img src="https://img.shields.io/badge/IFMS-Projeto%20Acadêmico-blue.svg" alt="IFMS">
 </p>
 
-## About Laravel
+## 🎓 Projeto Acadêmico
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+**Instituição**: Instituto Federal de Mato Grosso do Sul - Campus Bonito (IFMSCB)  
+**Curso**: Análise e Desenvolvimento de Sistemas  
+**Período**: 6º Semestre  
+**Disciplina**: Desenvolvimento em Frameworks Web
+**Objetivo**: Desenvolvimento de sistema web completo utilizando framework Laravel
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 🚀 Sobre o Projeto
 
-## Learning Laravel
+Um sistema moderno e elegante de gerenciamento de compromissos desenvolvido com Laravel como atividade prática do curso de Análise e Desenvolvimento de Sistemas. Nossa plataforma oferece uma experiência intuitiva para organizar sua agenda pessoal ou profissional com recursos avançados de administração.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### ✨ Principais Funcionalidades
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+- **📋 Gerenciamento de Compromissos**: Crie, edite e remova compromissos facilmente
+- **🌓 Tema Escuro/Claro**: Interface adaptável com suporte completo a modo escuro
+- **👥 Sistema de Usuários**: Autenticação segura com perfis personalizados
+- **🔐 Painel Administrativo**: Controle total sobre usuários e sistema
+- **📱 Design Responsivo**: Funciona perfeitamente em desktop e mobile
+- **🛡️ Segurança Avançada**: Middleware de bloqueio e controle de acesso
+- **⏰ Fuso Horário Inteligente**: Configuração automática de horários locais
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## 🛠️ Tecnologias Utilizadas
 
-## Laravel Sponsors
+- **Backend**: Laravel 12
+- **Frontend**: Blade Templates + Tailwind CSS
+- **Banco de Dados**: MySQL/PostgreSQL
+- **Autenticação**: Laravel Breeze
+- **Build Tools**: Vite
+- **Gerenciamento de Dependências**: Composer + PNPM
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## 📚 Conceitos Acadêmicos Aplicados
 
-### Premium Partners
+### Engenharia de Software
+- **MVC (Model-View-Controller)**: Arquitetura bem definida
+- **Design Patterns**: Repository, Factory, Observer
+- **SOLID Principles**: Código limpo e manutenível
+- **PSR Standards**: Seguindo padrões PHP
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+### Banco de Dados
+- **Modelagem Relacional**: Estrutura normalizada
+- **Migrations**: Versionamento do schema
+- **Eloquent ORM**: Mapeamento objeto-relacional
+- **Seeders**: População de dados de teste
 
-## Contributing
+### Segurança
+- **Autenticação**: Sistema robusto de login
+- **Autorização**: Controle de acesso por roles
+- **Middleware**: Filtros de segurança
+- **CSRF Protection**: Proteção contra ataques
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### Interface e UX
+- **Responsive Design**: Adaptação a diferentes telas
+- **Acessibilidade**: Seguindo padrões WCAG
+- **Dark/Light Theme**: Experiência personalizada
+- **Component-Based**: Reutilização de código
 
-## Code of Conduct
+## 📦 Instalação
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### Pré-requisitos
 
-## Security Vulnerabilities
+- PHP 8.2 ou superior
+- Composer
+- Node.js e PNPM
+- MySQL ou PostgreSQL
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### Passos para Instalação
 
-## License
+1. **Clone o repositório**
+```bash
+git clone <url-do-repositorio>
+cd calendar-laravel
+```
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+2. **Instale as dependências PHP**
+```bash
+composer install
+```
+
+3. **Instale as dependências Node.js**
+```bash
+pnpm install
+```
+
+4. **Configure o ambiente**
+```bash
+cp .env.example .env
+php artisan key:generate
+```
+
+5. **Configure o banco de dados**
+   - Edite o arquivo `.env` com suas credenciais de banco
+   - Execute as migrações:
+```bash
+php artisan migrate --seed
+```
+
+6. **Compile os assets**
+```bash
+pnpm run build
+```
+
+7. **Inicie o servidor**
+```bash
+php artisan serve
+```
+
+## 🎯 Como Usar
+
+### Para Usuários
+
+1. **Registro/Login**: Acesse a página inicial e crie sua conta
+2. **Dashboard**: Visualize seus compromissos e estatísticas
+3. **Criar Compromisso**: Use o botão "Novo Compromisso" para adicionar eventos
+4. **Gerenciar**: Edite ou remova compromissos existentes
+5. **Perfil**: Atualize suas informações pessoais
+
+### Para Administradores
+
+1. **Painel Admin**: Acesse funcionalidades administrativas
+2. **Gerenciar Usuários**: Visualize, edite ou bloqueie usuários
+3. **Relatórios**: Acompanhe estatísticas do sistema
+
+## ⚙️ Configurações
+
+### Fuso Horário
+
+Para configurar o fuso horário correto, adicione no arquivo `.env`:
+```env
+APP_TIMEZONE=America/Sao_Paulo
+```
+
+### Tema Escuro
+
+O sistema detecta automaticamente a preferência do usuário e oferece alternância manual entre temas.
+
+## 🔧 Desenvolvimento
+
+### Executar em modo de desenvolvimento
+```bash
+# Terminal 1 - Servidor Laravel
+php artisan serve
+
+# Terminal 2 - Build assets em tempo real
+pnpm run dev
+```
+
+### Estrutura do Projeto
+
+```
+app/
+├── Http/Controllers/     # Controladores
+├── Models/              # Modelos Eloquent
+├── Middleware/          # Middlewares customizados
+resources/
+├── views/               # Templates Blade
+├── css/                 # Estilos CSS
+├── js/                  # JavaScript
+database/
+├── migrations/          # Migrações do banco
+├── seeders/            # Seeders para dados iniciais
+```
+
+## 📋 Funcionalidades Implementadas
+
+- [x] Sistema de autenticação completo
+- [x] CRUD de compromissos
+- [x] Painel administrativo
+- [x] Tema escuro/claro
+- [x] Design responsivo
+- [x] Middleware de segurança
+- [x] Controle de usuários bloqueados
+- [x] Configuração de fuso horário
+- [x] Seeders para dados de teste
+- [x] Validação de formulários
+
+## 🎯 Objetivos de Aprendizagem Alcançados
+
+- ✅ **Framework Laravel**: Domínio das principais funcionalidades
+- ✅ **Arquitetura MVC**: Separação clara de responsabilidades
+- ✅ **Banco de Dados**: Modelagem e relacionamentos
+- ✅ **Autenticação**: Implementação segura de login/registro
+- ✅ **Frontend**: Interface moderna e responsiva
+- ✅ **Versionamento**: Uso do Git para controle de versão
+- ✅ **Deploy**: Preparação para ambiente de produção
+
+## 👨‍🎓 Autor
+
+**Nome**: Osiris Vinicius Mendes de Souza 
+**Email**: osiris.souza@estudante.ifms.edu.br  
+**GitHub**: viniszofx 
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## 📞 Suporte Acadêmico
+
+Para dúvidas sobre o projeto:
+- 📧 Email institucional: [osiris.souza@estudante.ifms.edu.br]
+- 💬 Issues: Use a aba Issues do GitHub
+
+---
+
+<p align="center">
+<strong>Instituto Federal de Mato Grosso do Sul - Campus Corumbá</strong><br>
+Análise e Desenvolvimento de Sistemas - 6º Período<br>
+Desenvolvido com ❤️ usando Laravel
+</p>
