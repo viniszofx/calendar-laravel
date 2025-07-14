@@ -1,0 +1,13 @@
+services:
+  database:
+    image: 'bitnami/mysql:latest'
+    environment:
+      - ALLOW_EMPTY_PASSWORD=yes
+      - MYSQL_DATABASE=my_database
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/bitnami/mysql
+volumes:
+  db_data:
+    driver: local
